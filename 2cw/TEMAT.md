@@ -9,3 +9,5 @@ c1: 6 paleta z foto
 c2: 0 siatka kart
 c3: 8 offline
 c4: 5 PL/EN
+p5: 2 interaktywny widżet
+
