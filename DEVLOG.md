@@ -7,3 +7,4 @@
 - Wizytówka ASCII w HTML
 
 # Zajęcia 02
+- Ćwiczenie 1 i 2 
