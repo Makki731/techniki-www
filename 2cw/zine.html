@@ -48,6 +48,39 @@
             </ol>
         </section>
 
+        <section id="grafik">
+            <h2>Grafik wyjazdów</h2>
+            <table>
+                <caption>Najbliższe wyjazdy</caption>
+                <thead>
+                    <tr><th scope="col">Data</th><th scope="col">Miejsce</th><th scope ="col">Godzina</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>26.10</td><td>Kluszkowce</td><td>10:00</td></tr>
+                    <tr><td>02.11</td><td>Szczawnica</td><td>9:00</td></tr>
+                    <tr><td>09.11</td><td>Zakopane</td><td>11:00</td></tr>
+                    <tr><td>16.11</td><td>Białka Tatrzańska</td><td>10:00</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="zapisy">
+            <h2>Zapisy</h2>
+            <form action="zapisy" method="post">
+                <label for="imie">Imię</label>
+                <input id="imie" name="imie" type="text" required>
+                <label for="mail">E-mail</label>
+                <input id="mail" name="mail" type="email" required>
+                <label for="termin">Termin</label>
+                <input id="termin" name="termin" type="date">
+                <button type="submit"Zapisuję się></button>
+            </form>
+        </section>
+
     </main>
+
+    <footer>
+        <p>Wydała ekipa DH | Kraków/Podhale</p>
+    </footer>
 </body>
 </html>
