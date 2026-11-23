@@ -1,0 +1,214 @@
+
+:root {
+  --pomarancz: #f97028;
+  --las: #2d351e;
+  --ziemia: #a39787;
+  --ciemny: #131a0f;
+
+  --tlo: #f4f1ec;
+  --tlo-karty: #ffffff;
+  --tekst: var(--ciemny);
+  --link: var(--las);
+  --odstep: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --tlo: var(--ciemny);
+    --tlo-karty: var(--las);
+    --tekst: #f4f1ec;
+    --link: var(--pomarancz);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: var(--tekst);
+  background: var(--tlo);
+}
+
+a {
+  color: var(--link);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+:focus-visible {
+  outline: 3px solid var(--pomarancz);
+}
+
+main,
+.naglowek,
+.stopka {
+  padding: var(--odstep);
+}
+
+main {
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.naglowek {
+  background: var(--las);
+  color: white;
+}
+
+.nazwa {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: var(--odstep);
+}
+
+.menu a {
+  color: white;
+}
+
+.stopka {
+  text-align: center;
+  border-top: 1px solid var(--ziemia);
+}
+
+.przycisk {
+  display: inline-block;
+  background: var(--pomarancz);
+  color: var(--ciemny);
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  font: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.przycisk--drugi {
+  background: transparent;
+  border: 2px solid var(--link);
+  color: var(--link);
+}
+
+.poziom {
+  background: var(--ziemia);
+  color: var(--ciemny);
+  padding: 0 0.5rem;
+  border-radius: 1rem;
+}
+
+.poziom--trudny {
+  background: var(--pomarancz);
+}
+
+.karty {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: var(--odstep);
+}
+
+.karta {
+  background: var(--tlo-karty);
+  border: 1px solid var(--ziemia);
+  border-top: 5px solid var(--pomarancz);
+  border-radius: 0.5rem;
+  padding: var(--odstep);
+}
+
+.karta__info dd,
+.dane dd {
+  margin: 0 0 0.5rem;
+}
+
+dt {
+  font-weight: bold;
+}
+
+
+.szczegol {
+  display: grid;
+  gap: var(--odstep);
+  grid-template-areas:
+    "zdjecie"
+    "opis"
+    "boczny";
+}
+
+
+.szczegol__zdjecie { grid-area: zdjecie; margin: 0; }
+.szczegol__opis    { grid-area: opis; }
+.szczegol__boczny  { grid-area: boczny; }
+
+.szczegol__boczny {
+  background: var(--tlo-karty);
+  border: 1px solid var(--ziemia);
+  border-radius: 0.5rem;
+  padding: var(--odstep);
+}
+
+.formularz {
+  max-width: 40rem;
+}
+
+.pole {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--odstep);
+}
+
+label {
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  font: inherit;
+  padding: 0.5rem;
+  border: 2px solid var(--ziemia);
+  border-radius: 0.5rem;
+}
+
+.podpowiedz {
+  font-size: 0.875rem;
+}
+
+.formularz__przyciski {
+  display: flex;
+  gap: var(--odstep);
+}
+
+@media (min-width: 48rem) {
+  .naglowek {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .szczegol {
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      "zdjecie boczny"
+      "opis    boczny";
+  }
+
+  .formularz__rzad {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--odstep);
+  }
+}
