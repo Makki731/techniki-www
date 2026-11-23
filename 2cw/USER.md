@@ -1,6 +1,7 @@
 # USER
 
 **Kto:** Tomek, jeździ DH od ok. 4 lat, głównie trasy w górach
+**Kiedy:** 18.11.2026
 
 ## Rozmowa
 
@@ -11,7 +12,7 @@ Jeżdżę już około 4 lat. Najczęściej na trasach downhillowych w górach. N
 Ostatnio umawialiśmy się na wyjazd na trasę downhillową przez naszą grupę na Messengerze. Najpierw jedna osoba napisała na grupie, że w weekend będzie dobra pogoda i zaproponowała wspólny wyjazd. Kilka osób od razu odpisało, że jest chętnych. Potem ustaliliśmy konkretny dzień i miejsce. Następnie dogadaliśmy transport – część osób jechała samochodem i zabierała pozostałych wraz z rowerami. Ustaliliśmy też godzinę zbiórki i to, kto z kim jedzie.
 
 **3. Gdzie to ustalaliście? Co poszło nie tak?**
-Ustalaliśmy wszystko na Messengerze, na naszej zamkniętej grupie. Problem był taki, że każdy odpisywał o innej porze i ciężko było zebrać wszystkich w jednym miejscu.
+Ustalaliśmy wszystko na WhatsAppie, na naszej zamkniętej grupie. Problem był taki, że każdy odpisywał o innej porze i ciężko było zebrać wszystkich w jednym miejscu.
 
 **4. Kiedy ostatnio wyjazd był bałaganem? Dlaczego?**
 W sierpniu planowaliśmy większy wyjazd ekipą do Szczawnicy. Wszystko ustalaliśmy na naszej grupie na Messengerze. Początkowo chętnych było około 8 osób, ale od samego początku pojawiały się problemy z ustaleniem konkretnego terminu. Część osób mogła jechać w sobotę, inni tylko w niedzielę. Do tego nie było wiadomo, kto zabierze samochód i ile rowerów zmieści się w transporcie. Kilka osób długo nie odpowiadało, a dwie zrezygnowały praktycznie dzień przed wyjazdem.
