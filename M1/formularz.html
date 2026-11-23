@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dodaj wyjazd · Ekipa DH</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="naglowek">
+        <p class="nazwa">Ekipa DH</p>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Wyjazdy</a></li>
+                <li><a href="formularz.html" aria-current="page">Dodaj wyjazd</a></li>
+                <li><a href="zine.html">Zin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Dodaj wyjazd</h1>
+        <p class="wstep">Wpisz, gdzie i kiedy jedziesz. Wyjazd pojawi się na liście i reszta ekipy będzie mogła się dopisać.</p>
+
+        <form class="formularz" action="#" method="get">
+            <div class="pole">
+                <label for="miejsce">Miejsce</label>
+                <select id="miejsce" name="miejsce" required>
+                    <option value="">wybierz bike park</option>
+                    <option>Kluszkowce</option>
+                    <option>Szczawnica</option>
+                    <option>Zakopane</option>
+                    <option>Białka Tatrzańska</option>
+                </select>
+            </div>
+
+            <div class="formularz__rzad">
+                <div class="pole">
+                    <label for="data">Data</label>
+                    <input id="data" name="data" type="date" required>
+                </div>
+                <div class="pole">
+                    <label for="godzina">Godzina zbiórki</label>
+                    <input id="godzina" name="godzina" type="time" required>
+                </div>
+            </div>
+
+            <div class="pole">
+                <p>Poziom trasy</p>
+                <input type="radio" id="latwy" name="poziom" value="latwy" required>
+                <label for="latwy">łatwy</label>
+                <input type="radio" id="sredni" name="poziom" value="sredni">
+                <label for="sredni">średni</label>
+                <input type="radio" id="trudny" name="poziom" value="trudny">
+                <label for="trudny">trudny</label>
+            </div>
+
+            <div class="formularz__rzad">
+                <div class="pole">
+                    <label for="miejsca">Wolne miejsca w aucie</label>
+                    <input id="miejsca" name="miejsca" type="number" min="0" max="8" value="0">
+                </div>
+                <div class="pole">
+                    <label for="ksywka">Twoje imię lub ksywka</label>
+                    <input id="ksywka" name="ksywka" type="text" required>
+                </div>
+            </div>
+
+            <div class="pole">
+                <label for="opis">Opis</label>
+                <textarea id="opis" name="opis" rows="4" aria-describedby="opis-podpowiedz"></textarea>
+                <span id="opis-podpowiedz" class="podpowiedz">Np. które trasy, gdzie zbiórka, co zabrać.</span>
+            </div>
+
+            <div class="formularz__przyciski">
+                <button class="przycisk" type="submit">Dodaj wyjazd</button>
+                <a class="przycisk przycisk--drugi" href="index.html">Anuluj</a>
+            </div>
+        </form>
+    </main>
+
+    <footer class="stopka">
+        <p>Ekipa DH · Kraków / Podhale</p>
+    </footer>
+</body>
+</html>
